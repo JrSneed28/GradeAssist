@@ -2,7 +2,7 @@
 
 > **⚠️ Project Status: INCOMPLETE**
 >
-> GradeAssist started off as a mod idea for CS2022 but is an engineering prototype. Core grade math and the test harness are functional, but the Unity simulator, telemetry replay engine, and several wished & planned features are still under development. **This project is not production-ready and probably will never be.** See the [Incomplete Areas](#incomplete-areas) section for details.
+> GradeAssist started off as a mod idea for CS2022 but is an engineering prototype. Core grade math and the test harness are functional, but the Unity simulator, telemetry replay engine and planned features are still under development. **This project is not production-ready and probably will never be.** See the [Incomplete Areas](#incomplete-areas) section for details.
 
 ---
 
