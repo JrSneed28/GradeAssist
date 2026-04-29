@@ -33,7 +33,7 @@
 | Unit & regression tests (`GradeAssist.Tests`) | ✅ Functional |
 | Telemetry replay engine (`GradeAssist.Replay`) | 🚧 In progress |
 | Unity simulator (`GradeAssist.UnitySim`) | 🚧 In progress |
-| Blender monitor blockout | 🚧 In progress |
+| Blender monitor blockout | ✅ 🚧 Functional/In progress |
 | Full controller state machine | 🚧 In progress |
 | CI pipeline | 🚧 Partial |
 | Documentation | 🚧 Partial |
