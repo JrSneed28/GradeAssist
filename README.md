@@ -136,13 +136,13 @@ git clone https://github.com/JrSneed28/GradeAssist.git
 cd GradeAssist
 
 # 2. Verify tools
-pwsh .\scripts\verify-tools.ps1
+ .\scripts\verify-tools.ps1
 
 # 3. Build
-pwsh .\scripts\build.ps1
+ .\scripts\build.ps1
 
 # 4. Run tests
-pwsh .\scripts\test.ps1
+ .\scripts\test.ps1
 ```
 
 ---
@@ -164,7 +164,7 @@ dotnet build .\src\GradeAssist.Replay\GradeAssist.Replay.csproj --configuration 
 ## Running Tests
 
 ```powershell
-pwsh .\scripts\test.ps1
+ .\scripts\test.ps1
 ```
 
 Runs `dotnet test` on `GradeAssist.Tests` in Release with code coverage collection. Tests cover:
@@ -177,9 +177,9 @@ Runs `dotnet test` on `GradeAssist.Tests` in Release with code coverage collecti
 ### Regenerate Telemetry Fixtures
 
 ```powershell
-pwsh .\scripts\regen-fixtures.ps1          # regenerate
-pwsh .\scripts\regen-fixtures.ps1 -DryRun  # preview without writing
-pwsh .\scripts\regen-fixtures.ps1 -Force   # overwrite existing fixtures
+ .\scripts\regen-fixtures.ps1          # regenerate
+ .\scripts\regen-fixtures.ps1 -DryRun  # preview without writing
+ .\scripts\regen-fixtures.ps1 -Force   # overwrite existing fixtures
 ```
 
 ### Unity Editor Tests
@@ -199,14 +199,13 @@ All config files live in `config/`. JSON schemas are provided for editor validat
 | `MountProfiles.sample.json` | `schema-mount-profiles.json` | Monitor mount positions |
 | `RigMaps.sample.json` | `schema-rig-maps.json` | Rig joint-to-bone path mapping |
 | `assist-tuning.json` | `schema-assist-tuning.json` | Controller gain and rate limits |
-| `safety-policy.json` | `schema-safety-policy.json` | Safety gate thresholds |
 | `keybinds.json` | `schema-keybinds.json` | Keyboard bindings |
 | `unity-settings.json` | `schema-unity-settings.json` | Unity simulator settings |
 
 Validate config files:
 
 ```powershell
-pwsh .\scripts\validate-config.ps1
+ .\scripts\validate-config.ps1
 ```
 
 ### Sample Grade Target
@@ -250,7 +249,7 @@ GradeAssist/
 │           └── RenderTextureMonitorBinder.cs
 ├── config/                        # JSON config files and schemas
 ├── docs/                          # Architecture and design documentation
-├── scripts/                       # PowerShell build, test, and release scripts
+├── scripts/                       # PowerShell build and test scripts
 ├── telemetry/
 │   └── samples/                   # Sample telemetry CSV files
 ├── assets/
@@ -267,7 +266,7 @@ The `GradeAssist.Replay` project replays telemetry CSV files against a grade pla
 Sample telemetry files are in `telemetry/samples/`. Run a replay:
 
 ```powershell
-pwsh .\scripts\run-telemetry-replay.ps1
+ .\scripts\run-telemetry-replay.ps1
 ```
 
 Output reports include per-row grade error, min/max/mean statistics, overcut counts, and above-grade counts in both Markdown and CSV format.
