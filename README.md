@@ -1,12 +1,8 @@
 # GradeAssist
 
-> **⚠️ Project Status: INCOMPLETE**
+> **⚠️ Project Status: INCOMPLETE/NEVER WILL BE**
 >
-> GradeAssist is an active engineering prototype. Core grade math and the test harness are functional, but the Unity simulator, telemetry replay engine, and several planned features are still under development. **This project is not production-ready.** See the [Incomplete Areas](#incomplete-areas) section for details.
-
----
-
-GradeAssist is a **standalone excavator grade-assist engineering prototype** written in C# / .NET 8. It implements real-time grade plane math, a simulated assist controller, a telemetry replay engine, and a Unity simulator with a mock excavator rig and cab monitor. It has **no dependency on, and makes no modifications to, any game runtime**.
+> GradeAssist is an engineering prototype. Core grade math and the test harness are functional, but the Unity simulator, telemetry replay engine, and several planned features are still under development. **This project is not production-ready and probably will never be.** See the [Incomplete Areas](#incomplete-areas) section for details.
 
 ---
 
