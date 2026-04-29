@@ -329,7 +329,3 @@ The following areas are **not yet complete**:
 | [`docs/Architecture.md`](docs/Architecture.md) | RenderTexture monitor binder setup |
 
 ---
-
-## Safety
-
-GradeAssist is a **prototype only**. It does not write to, modify, or interact with any installed game, DRM-protected software, or production system. All output is confined to the repository directory. See `config/safety-policy.json` for the safety gate configuration.
