@@ -29,13 +29,13 @@
 
 | Area | Status |
 |---|---|
-| Core grade math (`GradeAssist.Core`) | ✅ Functional |
-| Unit & regression tests (`GradeAssist.Tests`) | ✅ Functional |
-| Telemetry replay engine (`GradeAssist.Replay`) | 🚧 In progress |
-| Unity simulator (`GradeAssist.UnitySim`) | 🚧 In progress |
-| Blender monitor blockout | ✅ 🚧 Functional/In progress |
-| Full controller state machine | 🚧 In progress |
-| CI pipeline | 🚧 Partial |
+| Core grade math (`GradeAssist.Core`) | ✅ Functional/Complete|
+| Unit & regression tests (`GradeAssist.Tests`) | ✅ Functional/Complete |
+| Telemetry replay engine (`GradeAssist.Replay`) | 🚧 Functional/Incomplete |
+| Unity simulator (`GradeAssist.UnitySim`) | 🚧 Functional/Incomplete |
+| Blender monitor blockout | 🚧 Functional/Incomplete |
+| Full controller state machine | 🚧 Functional/Incomplete |
+| CI pipeline | 🚧 Functional/Incomplete |
 | Documentation | 🚧 Partial |
 
 ---
