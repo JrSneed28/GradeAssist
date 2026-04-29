@@ -120,12 +120,6 @@ See [`docs/GradeMath.md`](docs/GradeMath.md) for full documentation.
 | Unity Hub / Editor | 2022.3 LTS | ⚠️ Optional (UnitySim only) |
 | Blender | 3.x+ | ⚠️ Optional (monitor blockout only) |
 
-Verify required tools are on your `PATH`:
-
-```powershell
-pwsh .\scripts\verify-tools.ps1
-```
-
 ---
 
 ## Getting Started
@@ -135,13 +129,10 @@ pwsh .\scripts\verify-tools.ps1
 git clone https://github.com/JrSneed28/GradeAssist.git
 cd GradeAssist
 
-# 2. Verify tools
- .\scripts\verify-tools.ps1
-
-# 3. Build
+# 2. Build
  .\scripts\build.ps1
 
-# 4. Run tests
+# 3. Run tests
  .\scripts\test.ps1
 ```
 
@@ -150,7 +141,7 @@ cd GradeAssist
 ## Building
 
 ```powershell
-pwsh .\scripts\build.ps1
+ .\scripts\build.ps1
 ```
 
 This builds `GradeAssist.Core` and `GradeAssist.Tests` in Release configuration. The `GradeAssist.Replay` project is built separately:
