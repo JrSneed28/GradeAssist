@@ -6,6 +6,7 @@ obj/
 *.log
 10_releases_local.Path/
 10_releases_local/
+.gitignore
 
 # Claude/agent scratch
 TechnicalContext.md
