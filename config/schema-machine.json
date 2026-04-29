@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gradeassist.local/schema-machine.json",
+  "title": "Machine Config",
+  "description": "Generic simulator-only excavator machine configuration.",
+  "type": "object",
+  "required": ["machineId", "displayName"],
+  "properties": {
+    "machineId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^[a-zA-Z0-9_]+$",
+      "description": "Unique machine identifier."
+    },
+    "displayName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "description": "Human-readable display name."
+    },
+    "cuttingEdgeReferencePath": {
+      "type": "string",
+      "maxLength": 256,
+      "description": "Unity-style transform path to the bucket cutting-edge reference point. Simulator-only; not a verified game path."
+    },
+    "monitorMountPath": {
+      "type": "string",
+      "maxLength": 256,
+      "description": "Unity-style transform path to the cab monitor mount. Simulator-only; not a verified game path."
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 512,
+      "description": "Optional notes about the machine configuration."
+    }
+  },
+  "additionalProperties": false
+}

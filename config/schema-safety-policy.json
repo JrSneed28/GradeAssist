@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gradeassist.local/schema-safety-policy.json",
+  "title": "Safety Policy Config",
+  "description": "Safety policy enforcing external-only prototype operation with runtime injection disabled.",
+  "type": "object",
+  "required": ["gameFolderWritesAllowed", "runtimeInjectionAllowed", "antiTamperBypassAllowed"],
+  "properties": {
+    "gameFolderWritesAllowed": {
+      "type": "boolean",
+      "enum": [false],
+      "description": "Must be false. Writing to game install directories is prohibited."
+    },
+    "runtimeInjectionAllowed": {
+      "type": "boolean",
+      "enum": [false],
+      "description": "Must be false. Runtime injection is disabled."
+    },
+    "antiTamperBypassAllowed": {
+      "type": "boolean",
+      "enum": [false],
+      "description": "Must be false. Anti-tamper bypasses are prohibited."
+    },
+    "prohibitedPaths": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "List of prohibited file system paths."
+    },
+    "prohibitedTerms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "List of prohibited terms and phrases."
+    }
+  },
+  "additionalProperties": false
+}

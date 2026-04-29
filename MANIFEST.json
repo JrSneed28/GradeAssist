@@ -1,0 +1,412 @@
+{
+  "name": "GradeAssist_ClaudeReady",
+  "createdUtc": "2026-04-28T14:00:29Z",
+  "safety": "Safe external prototype only. No anti-tamper/DRM bypass. No game-folder writes.",
+  "files": [
+    {
+      "path": ".claude/commands/assist-safety-review.md",
+      "bytes": 189,
+      "sha256": "fff71114eba6757ccebf3907a50587f293443796c3136ae31cd89274e45f0319"
+    },
+    {
+      "path": ".claude/commands/bepinex-plugin-build.md",
+      "bytes": 189,
+      "sha256": "fb0fa94fc955f760d7d262f42dab856cfd4925d13df8d627c0638cea7c66cb25"
+    },
+    {
+      "path": ".claude/commands/code-review.md",
+      "bytes": 162,
+      "sha256": "3fa2048faeca83b14ea8dae58b2bf5dc0cf2de2c050c9eead3e043253a6ccc3d"
+    },
+    {
+      "path": ".claude/commands/feature-dev.md",
+      "bytes": 162,
+      "sha256": "52b7a357f648416fc770eaf69a01bd93d8aff123340e074bc47070a8ccd7fe1c"
+    },
+    {
+      "path": ".claude/commands/grade-math-test.md",
+      "bytes": 174,
+      "sha256": "a1bb579f5f88eff54118ae7538649def82dcdb1bf96e327d6fe03f6ae7b23845"
+    },
+    {
+      "path": ".claude/commands/machine-mapping.md",
+      "bytes": 174,
+      "sha256": "92ba0bda104897e7fda8633ab11c711e758a63a0447ffe06457e7002b388f05d"
+    },
+    {
+      "path": ".claude/commands/release-local.md",
+      "bytes": 168,
+      "sha256": "614c5b38590f8e5e5af1f909f1a537244fa477fabb830b17b0745b33323b69bb"
+    },
+    {
+      "path": ".claude/commands/runtime-feasibility.md",
+      "bytes": 186,
+      "sha256": "7d5c42d8580de706397d17a1d3355069c64c7523081b16fd032969cba6569210"
+    },
+    {
+      "path": ".claude/commands/unity-asset-pipeline.md",
+      "bytes": 189,
+      "sha256": "cba65db485555ec8b0a556df29dbc7d52fa92c3bfe4dbc7bc3b6b4e7443d346d"
+    },
+    {
+      "path": ".claude/hooks/security-pretool-check.ps1",
+      "bytes": 1087,
+      "sha256": "17c8fc6685e934ef9c306fd16377c7cee1588f6c41767c5e138c62fd3d19f3a4"
+    },
+    {
+      "path": ".claude/settings.json",
+      "bytes": 1021,
+      "sha256": "5a670aac3011fc9b1e9aee7a051e69e281e9ec968788a4784cbe78eb0a8c5a9a"
+    },
+    {
+      "path": ".claude/skills/assist-safety-review/SKILL.md",
+      "bytes": 691,
+      "sha256": "61e65776381fd83228fb000a8543f205caa49907a472382dc3528b06439a8346"
+    },
+    {
+      "path": ".claude/skills/bepinex-plugin-build/SKILL.md",
+      "bytes": 701,
+      "sha256": "de45c6c93c501b4c93d63148699d3c02e4a16a2104f2844692ddaf0d621a9eb4"
+    },
+    {
+      "path": ".claude/skills/code-review/SKILL.md",
+      "bytes": 610,
+      "sha256": "39d62c585f5d36f005d0701eb42f648507341493a0bec5defedc7ceed2e8dd84"
+    },
+    {
+      "path": ".claude/skills/feature-dev/SKILL.md",
+      "bytes": 901,
+      "sha256": "c414afab3e28289914b38799cba9bc53dc7ca2f59b0ab3ee2b87b09388372337"
+    },
+    {
+      "path": ".claude/skills/grade-math-test/SKILL.md",
+      "bytes": 796,
+      "sha256": "86ed342eedbb95fe270dd46ecb811afea4f49e44c3111e61cfb91aa958ece1bd"
+    },
+    {
+      "path": ".claude/skills/machine-mapping/SKILL.md",
+      "bytes": 685,
+      "sha256": "d07dc63bf0c535553538989e74dbd651a1af3bd112f30a29146bca7ca5250d7e"
+    },
+    {
+      "path": ".claude/skills/release-local/SKILL.md",
+      "bytes": 575,
+      "sha256": "ef8c33253f2bbd0edbb601ba3ee817248f201396556bee0eef3fc14a8c21cf82"
+    },
+    {
+      "path": ".claude/skills/runtime-feasibility/SKILL.md",
+      "bytes": 968,
+      "sha256": "194dcda0682cf686eba40710604e4dac87af4a66ff19907a84117d9790b4161c"
+    },
+    {
+      "path": ".claude/skills/unity-asset-pipeline/SKILL.md",
+      "bytes": 858,
+      "sha256": "d3741f6c2523f6a92174cdb590bd280820ea16f61f40a7109f5bb01b634292e3"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 588,
+      "sha256": "a3dd5a6680076c967864bfac565973736cfaf4c6c5037ed3c645b587fe9f0567"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 469,
+      "sha256": "7c4f2f4f1a972e49ff455433965c829c75f7eb91252d29df502b7cc92eaff046"
+    },
+    {
+      "path": "00_research/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "01_game_runtime_notes/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "01_game_runtime_notes/runtime-feasibility-result.md",
+      "bytes": 828,
+      "sha256": "b1c0c3c8b9b500be410c0067bec0191177aca051a3da90674248d50aa9319418"
+    },
+    {
+      "path": "02_plugin_project/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_unity_monitor_asset/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "04_blender_models/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "05_textures_materials/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "06_mount_profiles/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "07_test_logs/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "08_recordings/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "09_docs/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "10_releases_local/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 2285,
+      "sha256": "8ad57dfc9feebbc9fa9b37990754e1183da6a42bbd037608191fcbc185952483"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1560,
+      "sha256": "e166572aa8e3d47f400105e3d4078277955a25fa71f17289166b8a91e903d956"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1006,
+      "sha256": "2c4aeb151441ff401f2b5eeeb46607727e28b40e1bd24660369e835bdb74bd9f"
+    },
+    {
+      "path": "assets/blender/README.md",
+      "bytes": 360,
+      "sha256": "078d3fb5e4a05ec6ccfbd8ca16fd33ddd4a328802143fbacb71277776758854e"
+    },
+    {
+      "path": "assets/blender/create_monitor_blockout.py",
+      "bytes": 1368,
+      "sha256": "4964482f9b62703d721ea3e8a5793c17643a9723c2c43ea9b7cbd1145c12df9b"
+    },
+    {
+      "path": "assets/blender/monitor_model_spec.json",
+      "bytes": 468,
+      "sha256": "b887bc994e229f5822685e0f649a53a96bd684fba43c5d3b809aae7327598c29"
+    },
+    {
+      "path": "config/MountProfiles.sample.json",
+      "bytes": 498,
+      "sha256": "21b15e3fa6d1b5e5985e37fd12ff1f79cec16cc95268338af20dc81fd8b9b0ad"
+    },
+    {
+      "path": "config/RigMaps.sample.json",
+      "bytes": 318,
+      "sha256": "13049868f3bad418ebafdd692dba3f94b213cb4dc62c9fe392c3d9bd5fa75611"
+    },
+    {
+      "path": "config/assist-tuning.json",
+      "bytes": 186,
+      "sha256": "d118c1f73f2ed6f604a573c0d8abb9ee6328d3cc27ee84a4343d852dbeb73a4c"
+    },
+    {
+      "path": "config/keybinds.json",
+      "bytes": 218,
+      "sha256": "a98e99ab29db4657af315671d9cc4336080d675c2f947434665592262523e079"
+    },
+    {
+      "path": "config/safety-policy.json",
+      "bytes": 341,
+      "sha256": "7ecc5e37cc90a945c423958f94726d9f9db7f2919a8094673447a5be69196823"
+    },
+    {
+      "path": "config/sample-grade-target.json",
+      "bytes": 251,
+      "sha256": "860bad14ef7f76c81c3f999e104eb76afbfefe05ea3bed8c1a7d3bdc05841a99"
+    },
+    {
+      "path": "config/sample-machine.json",
+      "bytes": 261,
+      "sha256": "33767fdda3364a708aeb70231e19fe63de722416eb4832f4d7c73c5bccdfdc6c"
+    },
+    {
+      "path": "docs/BlenderMonitorSpec.md",
+      "bytes": 401,
+      "sha256": "3c1983f1f9790d86d0dac4fe71f22442110690a17fc2aa2b82130d66a3773fbf"
+    },
+    {
+      "path": "docs/ClaudeCodeRunbook.md",
+      "bytes": 621,
+      "sha256": "14bf06b42eb0ef21d48dfb08eca366a60322e54765b6a74c59128976c4ad9822"
+    },
+    {
+      "path": "docs/ExternalPrototypePlan.md",
+      "bytes": 971,
+      "sha256": "852186fd071972fc328cd4839035330777ee6927dfee42c5c04cda1a1962b89f"
+    },
+    {
+      "path": "docs/GradeMath.md",
+      "bytes": 577,
+      "sha256": "62a37647ab32ad77240adb5b78072fa6b4fe35bd13b910eb26128ab563ff919a"
+    },
+    {
+      "path": "docs/MachineMappingWorksheet.md",
+      "bytes": 553,
+      "sha256": "20c641a9b13cf9717899b4cf52600410bc6eafb484796c7932b5405f866ebd4b"
+    },
+    {
+      "path": "docs/ReleaseProcess.md",
+      "bytes": 283,
+      "sha256": "fb474dee6b88876f5b4d163973bdab6fb417b77f8d75a1f99272ed9222443f6a"
+    },
+    {
+      "path": "docs/RevisedMilestones.md",
+      "bytes": 1294,
+      "sha256": "d66473b5b27f53165cbf550f3a0ec28d620040b82fdaf34c7ae3566679c244d5"
+    },
+    {
+      "path": "docs/RuntimeFeasibilityResult.md",
+      "bytes": 828,
+      "sha256": "b1c0c3c8b9b500be410c0067bec0191177aca051a3da90674248d50aa9319418"
+    },
+    {
+      "path": "docs/SafetyGateChecklist.md",
+      "bytes": 321,
+      "sha256": "4ba89f885a5dd64b910fedebc05b8c9ce04dcba5bbb1420171baf9204a1115e5"
+    },
+    {
+      "path": "docs/SkillIndex.md",
+      "bytes": 805,
+      "sha256": "004e4a3d01691da8c740b0e63c942ad53237393b73317742ba35b5de136af976"
+    },
+    {
+      "path": "docs/TestPlan.md",
+      "bytes": 527,
+      "sha256": "dfd3f4744a4ca1acbf1e4bd32299f793fd87e91a771f82c9cbf0e3338c15ddfa"
+    },
+    {
+      "path": "docs/UnityAssetPipeline.md",
+      "bytes": 675,
+      "sha256": "74f95d6a0ce2f09d220517de84064cd721a14c29d48c4e0a0c246fc7d6be0635"
+    },
+    {
+      "path": "scripts/build.ps1",
+      "bytes": 279,
+      "sha256": "9af5b4566b6448fa6ad8de6f4af41606d8ee5daadf7257afbdf609e99e4b727e"
+    },
+    {
+      "path": "scripts/check-safety-gates.ps1",
+      "bytes": 1056,
+      "sha256": "357269ecf0c74fa909faf640811a8e376794aa32e28b34c86d4f948eca752d56"
+    },
+    {
+      "path": "scripts/create-local-release.ps1",
+      "bytes": 1141,
+      "sha256": "346840c7d970deab73f1b271b229c6585e0059cee0a35274fb4286a001aa6f9d"
+    },
+    {
+      "path": "scripts/final-verify.ps1",
+      "bytes": 303,
+      "sha256": "e05dfbf28e8cabb29b2ffe828f956894e078040b811bab57ef82534fdb124aa0"
+    },
+    {
+      "path": "scripts/setup-git.ps1",
+      "bytes": 346,
+      "sha256": "49b41425adfb40a9fb9a1fb45921c833f1b6a0fb6b9613677b15de329cdb2808"
+    },
+    {
+      "path": "scripts/test.ps1",
+      "bytes": 199,
+      "sha256": "b2c75f3a18813717044c6a32902ec6f8f0a8285dfcb65ff61beb564341d38578"
+    },
+    {
+      "path": "scripts/verify-tools.ps1",
+      "bytes": 761,
+      "sha256": "7730b51f9cd4393f44a9a1ed6d37e4803ee7339000e91178eb516a23a9eee1b1"
+    },
+    {
+      "path": "src/GradeAssist.Core/GradeAssist.Core.csproj",
+      "bytes": 294,
+      "sha256": "24dfd4731aa41ce6d2a85f4c8804dbcf52345182ba922861b679c060e3d57277"
+    },
+    {
+      "path": "src/GradeAssist.Core/GradeError.cs",
+      "bytes": 447,
+      "sha256": "5cfa1aaafa071160fed3068b62906ada8a8a2814bf2f2905c8c30b0e778ba267"
+    },
+    {
+      "path": "src/GradeAssist.Core/GradePlane.cs",
+      "bytes": 1266,
+      "sha256": "7f9c79318309015a1bed15a193c1330f842b7dda322b5f1f34fab345e5b8c60d"
+    },
+    {
+      "path": "src/GradeAssist.Core/GradeStatus.cs",
+      "bytes": 101,
+      "sha256": "49fb82a0c21e27a7e91a0e273ae7c486d874d1e0e13cd7b4a70c5bcaa95249d2"
+    },
+    {
+      "path": "src/GradeAssist.Core/GradeTargetSettings.cs",
+      "bytes": 1140,
+      "sha256": "2f5024491a4eae8241fd4d969aa46a3452a4c079d1b4ad11701d3a021a5d5933"
+    },
+    {
+      "path": "src/GradeAssist.Core/Vector3D.cs",
+      "bytes": 1019,
+      "sha256": "307879349ddd9321cd9c6e71e5a79f6ee6da2c37bd7a21fc0630323722e9e0b0"
+    },
+    {
+      "path": "src/GradeAssist.Tests/GradeAssist.Tests.csproj",
+      "bytes": 436,
+      "sha256": "15d335e364e6368c3190921478167b43b906b99e0686fa303220bfd049a31e6c"
+    },
+    {
+      "path": "src/GradeAssist.Tests/Program.cs",
+      "bytes": 3693,
+      "sha256": "742c4d14ee96772aa480a3c404cfa185e8f3b8bbbaf815fc5d9bd6c29cd3b98c"
+    },
+    {
+      "path": "src/GradeAssist.UnitySim/Assets/Scripts/GradeMonitorSimulator.cs",
+      "bytes": 1913,
+      "sha256": "2299fefcdce72548d14e11e453dd06385b85cf8e1a60ebfe21a766b73413eb7a"
+    },
+    {
+      "path": "src/GradeAssist.UnitySim/Assets/Scripts/MockExcavatorRig.cs",
+      "bytes": 895,
+      "sha256": "6e0260a5673b7130c3ef38f631c949cd6a94f637c4e97360be11f292ae1a2322"
+    },
+    {
+      "path": "src/GradeAssist.UnitySim/Assets/Scripts/RenderTextureMonitorBinder.cs",
+      "bytes": 1227,
+      "sha256": "470c5fcdfe20c0e08b043910f734fa40499227f1c7269e173d38aa6b73c44400"
+    },
+    {
+      "path": "src/GradeAssist.UnitySim/README.md",
+      "bytes": 603,
+      "sha256": "10e4f39e7981006b74abadc30865bee7b5e0bfd27828ed42ef94bb81b3d83bed"
+    },
+    {
+      "path": "telemetry/README.md",
+      "bytes": 184,
+      "sha256": "b15d52b1ad4cd578d91d175362a70a090690910cbfb2f4e54b30dfeefa3f1404"
+    },
+    {
+      "path": "telemetry/samples/simple-flat-pass.csv",
+      "bytes": 87,
+      "sha256": "59c9b770867259668e87916df8ffaa31589098dd2a99228e9bad702a0136556e"
+    },
+    {
+      "path": "telemetry/samples/slope-pass.csv",
+      "bytes": 85,
+      "sha256": "7a744e0abc4fadd6879480a01707cd4ff1a7628c37a7d9cdcdd5c407427c514a"
+    }
+  ]
+}

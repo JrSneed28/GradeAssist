@@ -1,0 +1,4 @@
+timeSeconds,bucketX,bucketY,bucketZ,boomAngle,stickAngle,bucketAngle,swingAngle
+0.0,0,10.0,0,10.5,20.0,30.0,45.0
+1.0,0,11.0,50,11.2,21.0,31.0,46.0
+2.0,0,12.0,100,12.0,22.0,32.0,47.0

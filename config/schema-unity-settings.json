@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gradeassist.local/schema-unity-settings.json",
+  "title": "Unity Settings Config",
+  "description": "Unity simulator runtime and UI settings.",
+  "type": "object",
+  "required": ["simulator", "renderTexture", "ui", "controls", "safety"],
+  "properties": {
+    "simulator": {
+      "type": "object",
+      "required": ["targetFps", "timeScale"],
+      "properties": {
+        "targetFps": { "type": "integer", "minimum": 1, "maximum": 240 },
+        "timeScale": { "type": "number", "minimum": 0.1, "maximum": 10.0 }
+      },
+      "additionalProperties": false
+    },
+    "renderTexture": {
+      "type": "object",
+      "required": ["width", "height"],
+      "properties": {
+        "width": { "type": "integer", "minimum": 64, "maximum": 4096 },
+        "height": { "type": "integer", "minimum": 64, "maximum": 4096 }
+      },
+      "additionalProperties": false
+    },
+    "ui": {
+      "type": "object",
+      "required": ["normalPrecisionMeters", "diagnosticsPrecisionMeters", "defaultOnGradeToleranceMeters", "diagnosticsDefaultVisible"],
+      "properties": {
+        "normalPrecisionMeters": { "type": "number", "minimum": 0.001, "maximum": 1.0 },
+        "diagnosticsPrecisionMeters": { "type": "number", "minimum": 0.0001, "maximum": 1.0 },
+        "defaultOnGradeToleranceMeters": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "diagnosticsDefaultVisible": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "controls": {
+      "type": "object",
+      "required": ["keyboardEnabled", "mouseEnabled", "gamepadEnabled"],
+      "properties": {
+        "keyboardEnabled": { "type": "boolean" },
+        "mouseEnabled": { "type": "boolean" },
+        "gamepadEnabled": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "safety": {
+      "type": "object",
+      "required": ["gameIntegrationEnabled", "allowExternalWrites", "blockedPaths"],
+      "properties": {
+        "gameIntegrationEnabled": { "type": "boolean", "enum": [false] },
+        "allowExternalWrites": { "type": "boolean", "enum": [false] },
+        "blockedPaths": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

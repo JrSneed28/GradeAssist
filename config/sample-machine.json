@@ -1,0 +1,7 @@
+{
+  "machineId": "mock_excavator_01",
+  "displayName": "Mock Excavator",
+  "cuttingEdgeReferencePath": "MockExcavator/Boom/Stick/Bucket/CuttingEdgeReference",
+  "monitorMountPath": "MockExcavator/Cab/MonitorMount",
+  "notes": "External Unity simulator only."
+}

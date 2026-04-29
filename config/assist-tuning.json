@@ -1,0 +1,8 @@
+{
+  "simOnly": true,
+  "controllersLockedByDefault": true,
+  "maxOutput": 0.35,
+  "maxOutputChangePerSecond": 0.75,
+  "manualOverrideThreshold": 0.15,
+  "watchdogTimeoutSeconds": 0.25
+}

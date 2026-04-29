@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gradeassist.local/schema-mount-profiles.json",
+  "title": "Mount Profiles Config",
+  "description": "Monitor mount profiles for the Unity simulator.",
+  "type": "object",
+  "required": ["profiles"],
+  "properties": {
+    "profiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["machineId", "displayName", "attachPath", "localPosition", "localRotationEuler", "localScale", "screenResolution", "screenObjectName"],
+        "properties": {
+          "machineId": { "type": "string", "minLength": 1, "maxLength": 64, "pattern": "^[a-zA-Z0-9_]+$" },
+          "displayName": { "type": "string", "minLength": 1, "maxLength": 128 },
+          "attachPath": { "type": "string", "minLength": 1, "maxLength": 256 },
+          "localPosition": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": { "type": "number" }
+          },
+          "localRotationEuler": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": { "type": "number" }
+          },
+          "localScale": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": { "type": "number" }
+          },
+          "screenResolution": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": { "type": "integer", "minimum": 1 }
+          },
+          "screenObjectName": { "type": "string", "minLength": 1, "maxLength": 128 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

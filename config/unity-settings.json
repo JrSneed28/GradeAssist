@@ -1,0 +1,28 @@
+{
+  "simulator": {
+    "targetFps": 60,
+    "timeScale": 1.0
+  },
+  "renderTexture": {
+    "width": 1024,
+    "height": 600
+  },
+  "ui": {
+    "normalPrecisionMeters": 0.01,
+    "diagnosticsPrecisionMeters": 0.001,
+    "defaultOnGradeToleranceMeters": 0.03,
+    "diagnosticsDefaultVisible": false
+  },
+  "controls": {
+    "keyboardEnabled": true,
+    "mouseEnabled": false,
+    "gamepadEnabled": false
+  },
+  "safety": {
+    "gameIntegrationEnabled": false,
+    "allowExternalWrites": false,
+    "blockedPaths": [
+      "C:\\XboxGames\\Construction Simulator"
+    ]
+  }
+}

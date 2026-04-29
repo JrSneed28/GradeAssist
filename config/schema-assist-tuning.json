@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gradeassist.local/schema-assist-tuning.json",
+  "title": "Assist Tuning Config",
+  "description": "Tuning parameters for simulated assist controllers.",
+  "type": "object",
+  "required": ["simOnly", "controllersLockedByDefault", "maxOutput", "maxOutputChangePerSecond", "manualOverrideThreshold", "watchdogTimeoutSeconds"],
+  "properties": {
+    "simOnly": {
+      "type": "boolean",
+      "description": "Controllers operate in simulation only."
+    },
+    "controllersLockedByDefault": {
+      "type": "boolean",
+      "description": "Controllers start in Locked state."
+    },
+    "maxOutput": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Maximum controller output magnitude."
+    },
+    "maxOutputChangePerSecond": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Maximum rate of change per second."
+    },
+    "manualOverrideThreshold": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Manual input threshold that triggers override."
+    },
+    "watchdogTimeoutSeconds": {
+      "type": "number",
+      "minimum": 0.01,
+      "maximum": 5.0,
+      "description": "Watchdog timeout in seconds."
+    }
+  },
+  "additionalProperties": false
+}

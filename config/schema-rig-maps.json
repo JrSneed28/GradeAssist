@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gradeassist.local/schema-rig-maps.json",
+  "title": "Rig Maps Config",
+  "description": "Excavator rig hierarchy mappings for the Unity simulator.",
+  "type": "object",
+  "required": ["rigs"],
+  "properties": {
+    "rigs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["machineId", "root", "boom", "stick", "bucket", "cuttingEdgeReference"],
+        "properties": {
+          "machineId": { "type": "string", "minLength": 1, "maxLength": 64, "pattern": "^[a-zA-Z0-9_]+$" },
+          "root": { "type": "string", "minLength": 1, "maxLength": 256 },
+          "boom": { "type": "string", "minLength": 1, "maxLength": 256 },
+          "stick": { "type": "string", "minLength": 1, "maxLength": 256 },
+          "bucket": { "type": "string", "minLength": 1, "maxLength": 256 },
+          "cuttingEdgeReference": { "type": "string", "minLength": 1, "maxLength": 256 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

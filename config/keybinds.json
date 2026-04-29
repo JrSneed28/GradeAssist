@@ -1,0 +1,19 @@
+{
+  "setBenchmark": "B",
+  "moveForward": "UpArrow",
+  "moveBackward": "DownArrow",
+  "moveLeft": "LeftArrow",
+  "moveRight": "RightArrow",
+  "moveUp": "PageUp",
+  "moveDown": "PageDown",
+  "emergencyDisable": "F10",
+  "cyclePageForward": "M",
+  "cyclePageBackward": "Shift+M",
+  "pageWork": "F1",
+  "pageTarget": "F2",
+  "pageSystem": "F3",
+  "settingsIncrement": "Equals",
+  "settingsDecrement": "Minus",
+  "settingsApply": "Return",
+  "settingsCancel": "Escape"
+}

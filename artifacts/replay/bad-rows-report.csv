@@ -1,0 +1,19 @@
+timeSeconds,bucketX,bucketY,bucketZ,targetY,errorMeters,status
+0.000000,0.000000,10.000000,0.000000,9.000000,1.000000,AboveGrade
+0.500000,0.000000,11.000000,0.000000,9.000000,2.000000,AboveGrade
+1.000000,0.000000,12.000000,0.000000,9.000000,3.000000,AboveGrade
+2.000000,0.000000,13.000000,0.000000,9.000000,4.000000,AboveGrade
+
+# Summary
+totalSamples,7
+validSamples,4
+invalidRows,3
+durationSeconds,2.000000
+minError,1.000000
+maxError,4.000000
+meanError,2.500000
+aboveGradeCount,4
+onGradeCount,0
+belowGradeCount,0
+worstAboveGrade,4.000000
+worstOvercut,0.000000

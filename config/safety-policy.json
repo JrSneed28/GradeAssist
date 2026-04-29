@@ -1,0 +1,16 @@
+{
+  "gameFolderWritesAllowed": false,
+  "runtimeInjectionAllowed": false,
+  "antiTamperBypassAllowed": false,
+  "prohibitedPaths": [
+    "C:/XboxGames/Construction Simulator",
+    "*/steamapps/common/*"
+  ],
+  "prohibitedTerms": [
+    "anti-tamper bypass",
+    "DRM bypass",
+    "loader hiding",
+    "proxy DLL",
+    "launcher bypass"
+  ]
+}

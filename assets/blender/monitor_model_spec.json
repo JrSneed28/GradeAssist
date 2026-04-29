@@ -1,0 +1,25 @@
+{
+  "name": "Generic Grade Monitor Blockout",
+  "units": "meters",
+  "objects": [
+    "Monitor_Body",
+    "Monitor_Bezel",
+    "Monitor_Screen",
+    "Button_F1",
+    "Button_F2",
+    "Button_F3",
+    "Button_F4",
+    "Button_Home",
+    "Button_Back",
+    "Knob_Rotary",
+    "LED_Green",
+    "LED_Amber",
+    "LED_Red",
+    "Bracket"
+  ],
+  "screenResolution": [
+    1024,
+    600
+  ],
+  "notes": "Generic external prototype asset only. No proprietary logos/assets."
+}

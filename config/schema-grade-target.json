@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gradeassist.local/schema-grade-target.json",
+  "title": "Grade Target Config",
+  "description": "Grade target settings including benchmark, direction, depth, slope, and tolerance.",
+  "type": "object",
+  "required": ["benchmarkPoint", "gradeDirectionXZ", "targetCutDepthMeters", "slopePercent", "crossSlopePercent", "toleranceMeters"],
+  "properties": {
+    "benchmarkPoint": {
+      "type": "object",
+      "required": ["x", "y", "z"],
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "z": { "type": "number" }
+      },
+      "additionalProperties": false
+    },
+    "gradeDirectionXZ": {
+      "type": "object",
+      "required": ["x", "y", "z"],
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number", "enum": [0] },
+        "z": { "type": "number" }
+      },
+      "additionalProperties": false
+    },
+    "targetCutDepthMeters": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Positive when desired grade is below benchmark."
+    },
+    "slopePercent": {
+      "type": "number",
+      "minimum": -500,
+      "maximum": 500,
+      "description": "Slope percentage (slopeDecimal = slopePercent / 100)."
+    },
+    "crossSlopePercent": {
+      "type": "number",
+      "minimum": -500,
+      "maximum": 500,
+      "description": "Cross-slope percentage."
+    },
+    "toleranceMeters": {
+      "type": "number",
+      "minimum": 0,
+      "description": "On-grade tolerance band in meters."
+    }
+  },
+  "additionalProperties": false
+}

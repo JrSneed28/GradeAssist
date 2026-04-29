@@ -1,0 +1,9 @@
+{
+  "benchmarkX": 0.0,
+  "benchmarkY": 0.0,
+  "benchmarkZ": 0.0,
+  "targetCutDepthMeters": 1.5,
+  "slopePercent": 0.0,
+  "crossSlopePercent": 0.0,
+  "toleranceMeters": 0.03
+}

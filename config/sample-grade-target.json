@@ -1,0 +1,16 @@
+{
+  "benchmarkPoint": {
+    "x": 0.0,
+    "y": 10.0,
+    "z": 0.0
+  },
+  "gradeDirectionXZ": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 1.0
+  },
+  "targetCutDepthMeters": 1.5,
+  "slopePercent": 2.0,
+  "crossSlopePercent": 0.0,
+  "toleranceMeters": 0.03
+}

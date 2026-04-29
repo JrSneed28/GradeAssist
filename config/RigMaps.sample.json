@@ -1,0 +1,12 @@
+{
+  "rigs": [
+    {
+      "machineId": "mock_excavator_01",
+      "root": "MockExcavator",
+      "boom": "MockExcavator/Boom",
+      "stick": "MockExcavator/Boom/Stick",
+      "bucket": "MockExcavator/Boom/Stick/Bucket",
+      "cuttingEdgeReference": "MockExcavator/Boom/Stick/Bucket/CuttingEdgeReference"
+    }
+  ]
+}
